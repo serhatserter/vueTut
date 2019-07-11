@@ -3,7 +3,11 @@ window.addEventListener('load', () => {
 
         el: "#app",
         data: {
-            message: "Hello world!"
+            message: " is log in.",
+            isTrue: true,
+            username: "Deneme",
+            buton: "<button>Deneme</button>",
+            text: "Text",
         }
     
     })
