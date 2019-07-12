@@ -3,7 +3,6 @@ Vue.component('count-box', {
     data: function () {
         return {
           count: 0,
-          colorChange: 'red',
         }
 
         
@@ -13,21 +12,26 @@ Vue.component('count-box', {
         boxname:{
             type:String,
             required: true,
-        }
+        },
+        styleObject: {
+            type: Object,
+            required: true,
+        },
+        currentStatus: {
+            type: Boolean,
+        },
     },
     methods: {
         countClick() {
             this.count++;
-            this.$emit('changeCl');
+            this.$emit('change_color');
         },
     },
 
     template: `
-    
-    <div class="box" v-bind:style="styleObject">
-    <button   v-on:click = "countClick()">{{boxname}} : {{count}}</button>
+    <div class="box" v-bind:style="[currentStatus ? styleObject : {}]">
+        <button v-on:click = "countClick()">{{boxname}} : {{count}}</button>
     </div>
-    
     `
 
 })
@@ -40,18 +44,17 @@ window.addEventListener('load', () =>{
  
         data: { 
             styleObject: {
-                color: 'red',
-                fontSize: '13px'
+                'background-color': 'red',
               },
+            currentNumber: 0,
         },
         
         methods: {
-           setColor(){
            
+           setColor(number){
+                this.currentNumber = number;
            }
-        },
-    
-        computed: {
+
         },
 
 
