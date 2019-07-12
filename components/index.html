@@ -11,9 +11,9 @@
 <body>
     
     <div id="app">
-        <count-box v-on:changeCl="getColor()" boxname="First Box"></count-box>
+        <count-box @change_color="setColor(1)" boxname="First Box" :style-object="styleObject" :current-status="currentNumber === 1"></count-box>
         <br><br>
-        <count-box boxname="Second Box"></count-box>
+        <count-box @change_color="setColor(2)" boxname="Second Box" :style-object="styleObject" :current-status="currentNumber === 2"></count-box>
         
     </div>
 
