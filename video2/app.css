@@ -73,3 +73,21 @@ a.secondary {
   margin-left: 3px;
   border-left: 1px solid #CCC;
 }
+
+.price {
+  color: #b12704;
+  font-size: 17px;
+}
+
+p.price {
+  float: left;
+  margin-left: 20px;
+}
+
+.subtotal {
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 60px;
+  text-align: right;
+  margin-right: 40px;
+}

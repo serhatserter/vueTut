@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.3/vue.js"></script>
+    <link rel="stylesheet" type="text/css" href="app.css" />
+    <script type="text/javascript" src="app.js"></script>
+    <title>Document</title>
+    
+</head>
+<body>
+    
+    <div id="app">
+        <count-box v-on:changeCl="getColor()" boxname="First Box"></count-box>
+        <br><br>
+        <count-box boxname="Second Box"></count-box>
+        
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: darkgray;
+}
+button{
+    margin-top: 80px;
+
+    width: 70%;
+}
