@@ -28,7 +28,7 @@ export default {
   },
   
   created(){
-    fetch('src/datas/dataBlog.json')
+    fetch('src/datas/dataBlog2.json')
         .then((res) => {return res.json()})
         .then((res) => {
 
