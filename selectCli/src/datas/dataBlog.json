@@ -1,0 +1,27 @@
+{
+  "one": {
+    "boxhead": "Birinci Yazı",
+    "boxintro": "Birinci Yazı açıklaması",
+    "boxcontent": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste nihil ullam praesentium alias sint quibusdam sit iusto ratione modi ex. Numquam culpa distinctio deserunt voluptas, dolorum perspiciatis non temporibus quia."
+  },
+  "two": {
+    "boxhead": "İkinci Yazı",
+    "boxintro": "İkinci Yazı açıklaması",
+    "boxcontent": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste nihil ullam praesentium alias sint quibusdam sit iusto ratione modi ex. Numquam culpa distinctio deserunt voluptas, dolorum perspiciatis non temporibus quia."
+  },
+  "three": {
+    "boxhead": "Üçüncü Yazı",
+    "boxintro": "Üçüncü Yazı açıklaması",
+    "boxcontent": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste nihil ullam praesentium alias sint quibusdam sit iusto ratione modi ex. Numquam culpa distinctio deserunt voluptas, dolorum perspiciatis non temporibus quia."
+  },
+  "four": {
+    "boxhead": "Dördüncü Yazı",
+    "boxintro": "Dördüncü Yazı açıklaması",
+    "boxcontent": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste nihil ullam praesentium alias sint quibusdam sit iusto ratione modi ex. Numquam culpa distinctio deserunt voluptas, dolorum perspiciatis non temporibus quia."
+  },
+  "five": {
+    "boxhead": "Beşinci Yazı",
+    "boxintro": "Beşinci Yazı açıklaması",
+    "boxcontent": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste nihil ullam praesentium alias sint quibusdam sit iusto ratione modi ex. Numquam culpa distinctio deserunt voluptas, dolorum perspiciatis non temporibus quia."
+  }
+}
